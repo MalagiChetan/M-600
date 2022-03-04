@@ -22,7 +22,7 @@ const ChartData = () => {
     ],
   })
   return (
-    <div className="bar">
+    <div>
       {status ? (
         <BarChart chartData={userData} />
       ) : (

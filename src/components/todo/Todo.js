@@ -20,7 +20,10 @@ function Todo() {
 
   return (
     <div className="App">
-      <div className="d-flex justify-content-center">
+      <div
+        className="d-flex justify-content-center"
+        style={{ marginTop: "25px" }}
+      >
         <input
           type="text"
           placeholder="enter todo..."
@@ -37,7 +40,7 @@ function Todo() {
           Add Todo
         </button>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center" style={{ margin: "10px" }}>
         <div
           className="justify-content-center"
           style={{ fontSize: "25px", fontWeight: "500" }}
